@@ -1,16 +1,76 @@
 .gallery {
-    display: flex;
-    flex-wrap: wrap;
-    list-style: none;
-    margin-left: 156px;
-    }
+display: flex;
+flex-wrap: wrap;
+list-style: none;
+margin-left: 156px;
+}
       
-    .gallery-item {
-    padding: 24px;
-    }
+.gallery-item {
+padding: 24px;
+}
+    
+.gallery-image {
+width: 360px;
+height: 200px;
+object-fit: cover;
+}
+
+feedback-form {
+display: block;
+}
+
+label {
+display: block;
+font-family: Montserrat;
+font-size: 16px;
+font-weight: 400;
+line-height: 24px;
+letter-spacing: 0.04em;
+text-align: left;
+}
+ 
+input {
+border: 1px solid #808080;
+display: block;
+width: 360px;
+height: 40px;
+margin-bottom: 8px;
+}
+  
+input:hover {
+order: 1px solid rgba(0, 0, 0, 1)
+}
       
-    .gallery-image {
-    width: 360px;
-    height: 200px;
-    object-fit: cover;
-    }
+input:active {
+border: 1px solid rgba(128, 128, 128, 1)
+}
+
+textarea {
+display: block;
+gap: 8px;
+width: 360px;
+height: 80px;
+resize: none;
+border: 1px solid #808080;
+}
+      
+button {
+font-family: Montserrat;
+font-size: 16px;
+font-weight: 500;
+line-height: 24px;
+letter-spacing: 0.04em;  
+background-color: rgba(78, 117, 255, 1);
+color: rgba(255, 255, 255, 1);
+padding: 8px 16px 8px 16px;
+gap: 10px;
+border-radius: 8px;
+border: none;
+width: 95px;
+height: 40px;
+margin-top: 16px;
+}
+      
+button:hover {
+background-color: rgba(108, 140, 255, 1);
+}
